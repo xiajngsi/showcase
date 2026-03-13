@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vibe Intel | 2026-03-13</title>
+<style>
+  :root { --accent: #6366f1; --bg: #0f0f11; --card: #1a1a1f; --text: #e2e2e8; --muted: #888; --border: #2a2a32; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; background: var(--bg); color: var(--text); line-height: 1.8; }
+  .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 16px 24px; display: flex; align-items: center; gap: 16px; }
+  .nav a { color: var(--accent); text-decoration: none; font-size: 14px; }
+  .nav .logo { font-weight: 700; font-size: 16px; color: var(--text); }
+  .container { max-width: 800px; margin: 0 auto; padding: 40px 24px; }
+  .date-badge { background: var(--accent); color: white; padding: 4px 12px; border-radius: 20px; font-size: 12px; display: inline-block; margin-bottom: 24px; }
+  h1 { font-size: 24px; margin: 24px 0 16px; color: white; }
+  h2 { font-size: 18px; margin: 32px 0 12px; color: var(--accent); padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+  h3 { font-size: 15px; margin: 20px 0 8px; color: #aaa; }
+  p { margin: 10px 0; color: var(--text); }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  strong { color: white; }
+  ul { padding-left: 20px; margin: 10px 0; }
+  li { margin: 6px 0; }
+  hr { border: none; border-top: 1px solid var(--border); margin: 24px 0; }
+  table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+  td { padding: 10px 12px; border: 1px solid var(--border); vertical-align: top; }
+  tr:first-child td { background: #22222a; font-weight: 600; }
+  .meta { color: var(--muted); font-size: 13px; margin-bottom: 24px; }
+</style>
+</head>
+<body>
+<nav class="nav">
+  <span class="logo">🌐 Vibe Intel</span>
+  <a href="/showcase/vibe-intel/">← 返回目录</a>
+</nav>
+<div class="container">
+  <div class="date-badge">📅 2026-03-13</div>
+  <h1>Vibe Coding & Agent Engineering 市场情报简报</h1>
+
+<strong>日期：</strong> 2026-03-13
+<strong>信源数量：</strong> 48 条（博客 5 | 产品 20 | GitHub 13 | 讨论 5 | 融资 5）
+
+<hr/>
+<h2>一、核心信号（Top 3）</h2>
+
+<strong>信号 1：Agent 基础设施层加速成熟「多源印证 ▲」</strong>
+
+<p>Anthropic 官方发布 <a href="https://github.com/anthropics/claude-plugins-official" target="_blank">Claude Code Plugins 目录</a>，NousResearch 推出 <a href="https://github.com/NousResearch/hermes-agent" target="_blank">Hermes Agent 框架</a>，HN 热帖 <a href="https://news.ycombinator.com/item?id=47350516" target="_blank">Axe</a>（192分/108评论）主打"12MB 替代整个 AI 框架"，<a href="https://news.ycombinator.com/item?id=47353558" target="_blank">OneCLI</a> 提供 Agent 密钥管理。四个独立信源同日指向同一方向：Agent 工具链正从"能用"走向"标准化"。</p>
+
+<strong>战略含义：</strong> Agent 生态的竞争焦点已从模型能力转向开发者体验和插件生态控制权。Anthropic 亲自下场做插件目录，是平台化意图的明确信号。
+
+<strong>信号 2：Vibe Coding 引发行业身份认同危机「多源印证 ▲」</strong>
+
+<p>NYT 长文 <a href="https://simonwillison.net/2026/Mar/12/coding-after-coders/#atom-everything" target="_blank">Coding After Coders</a> 直言"编程职业终结"，Les Orchard <a href="https://simonwillison.net/2026/Mar/12/les-orchard/#atom-everything" target="_blank">撰文</a>指出 AI 辅助编码正暴露开发者群体内部长期存在的分裂，Atlassian CEO <a href="https://news.ycombinator.com/item?id=47352335" target="_blank">公开表态</a> AI 不应取代员工。博客、主流媒体、企业高管三方同日发声，话题烈度罕见。</p>
+
+<strong>战略含义：</strong> "AI 替代开发者"叙事已进入主流媒体周期，企业需要在招聘策略和产品定位上主动回应这一情绪。
+
+<strong>信号 3：AI Agent Builder 赛道获大额融资验证</strong>
+
+<a href="https://techcrunch.com/2026/03/12/gumloop-lands-50m-from-benchmark-to-turn-every-employee-into-an-ai-agent-builder/" target="_blank">Gumloop 获 Benchmark 领投 5000 万美元</a>，定位"让每个员工成为 Agent 构建者"；<a href="https://techcrunch.com/2026/03/12/wonderful-raises-150m-series-b-at-2b-valuation/" target="_blank">Wonderful 完成 1.5 亿美元 B 轮</a>，估值 20 亿美元，距 A 轮仅 4 个月。
+
+<strong>战略含义：</strong> 资本正以异常速度押注"非技术人员构建 Agent"这一假设，市场窗口期可能不足 12 个月。
+
+<hr/>
+<h2>二、新产品与技术动态</h2>
+
+<ul><li><strong><a href="https://www.producthunt.com/products/gstack" target="_blank">GStack</a></strong> — 复刻 Garry Tan 的 Claude Code 配置 — KOL 驱动的开发者工具分发模式值得关注</li>
+<li><strong><a href="https://github.com/obra/superpowers" target="_blank">obra/superpowers</a></strong> — Agent 软件开发方法论框架 — 将 Agent 工作流从工具层提升到方法论层，方向新颖</li>
+<li><strong><a href="https://github.com/alibaba/page-agent" target="_blank">alibaba/page-agent</a></strong> — 自然语言控制网页 GUI — 阿里入局浏览器 Agent，与 Understudy（<a href="https://news.ycombinator.com/item?id=47353957" target="_blank">HN 100分</a>）的桌面演示教学形成互补赛道</li>
+<li><strong><a href="https://github.com/langflow-ai/openrag" target="_blank">langflow-ai/openrag</a></strong> — 单包 RAG 平台 — RAG 方案持续向一体化整合</li>
+<li><strong><a href="https://github.com/microsoft/BitNet" target="_blank">microsoft/BitNet</a></strong> — 1-bit LLM 推理框架 — 端侧部署关键技术，配合 <a href="https://github.com/google-ai-edge/LiteRT" target="_blank">Google LiteRT</a> 同日趋势，边缘推理赛道升温</li>
+<li><strong><a href="https://www.producthunt.com/products/hyper-10" target="_blank">Hyper</a></strong> — 真实对话完美记忆 — 可穿戴 AI 记忆品类持续涌现</li>
+</ul>
+<strong>分析师点评：今日 GitHub 趋势仓库中，Agent 框架/工具类占比超过 50%（8/13），Agent infra 的开源竞赛已白热化。</strong>
+
+<hr/>
+<h2>三、开发者社区情绪</h2>
+
+<h3>3.1 软件行业 AI 焦虑 ⚔️ 争议</h3>
+
+<p>NYT 报道、Les Orchard 博文、Atlassian CEO 表态三线并行，社区围绕"AI 是否终结编程职业"出现尖锐分化。Les Orchard 的核心洞察尤为精准：AI 编码暴露的是开发者群体内部一直存在的价值观裂痕——工匠型开发者与效率型开发者的路线之争。MALUS 的<a href="https://simonwillison.net/2026/Mar/12/malus/#atom-everything" target="_blank">"Clean Room as a Service"讽刺项目</a>则折射出对 vibe-porting 许可证洗白的担忧。</p>
+
+<strong>分析师点评：争议核心不是"AI 能否写代码"，而是"写代码是否还是一种职业身份"——这是比技术替代更深层的文化冲突。</strong>
+
+<h3>3.2 教育行业 AI 影响</h3>
+
+<p>本日无直接相关信源。但 NYT "Coding After Coders" 隐含对 CS 教育路径的根本性质疑，值得教育方向持续追踪。</p>
+
+<hr/>
+<h2>四、资本与商业动向</h2>
+
+<table class="table"><tr><td>公司</td><td>轮次/金额/投资方</td><td>战略意义</td></tr>
+<tr><td>------</td><td>-----------------</td><td>----------</td></tr>
+<tr><td><a href="https://techcrunch.com/2026/03/12/gumloop-lands-50m-from-benchmark-to-turn-every-employee-into-an-ai-agent-builder/" target="_blank">Gumloop</a></td><td>A轮 / $50M / Benchmark</td><td>低代码 Agent 构建器获顶级 VC 认可，"人人可建 Agent"成为投资主题</td></tr>
+<tr><td><a href="https://techcrunch.com/2026/03/12/wonderful-raises-150m-series-b-at-2b-valuation/" target="_blank">Wonderful</a></td><td>B轮 / $150M / Insight Partners（估值$2B）</td><td>A→B 轮仅隔 4 个月，融资节奏极其激进，反映市场 FOMO</td></tr>
+<tr><td><a href="https://techcrunch.com/2026/03/12/before-quantum-computing-arrives-this-startup-wants-enterprises-already-running-on-it/" target="_blank">QuTwo</a></td><td>早期 / 未披露</td><td>量子计算基础设施预布局，创始人此前以 $6.65 亿退出 AI 公司</td></tr>
+</table>
+<strong>分析师点评：Wonderful 从 A 轮到 B 轮仅 4 个月即完成估值翻倍（$2B），这一速度在 2026 年融资环境下属于异常信号，需警惕赛道过热风险。</strong>
+
+<hr/>
+<h2>五、分析师判断</h2>
+
+<strong>本周趋势方向：</strong> Agent 生态正经历从"框架涌现"到"标准化整合"的拐点。Anthropic 官方插件目录的推出标志着平台方开始主导生态规范，早期碎片化的 Agent 工具链将面临整合压力。
+
+<strong>今日最强信号：</strong> Anthropic 发布官方 Claude Code Plugins 目录——这是 Agent 生态从开放实验走向平台治理的分水岭事件。
+
+<strong>需持续观察：</strong> "非技术用户构建 Agent"假设的真实落地情况。Gumloop 和 GStack 代表两种路径（低代码平台 vs KOL 配置复刻），哪条路径能真正跑通将决定下一阶段的产品形态。
+</div>
+</body>
+</html>
