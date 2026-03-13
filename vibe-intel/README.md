@@ -1,0 +1,8 @@
+# 🌐 Vibe Coding & AI 情报日报
+
+> 每日追踪 vibe coding、agent engineering 市场动态
+> 最近更新：2026-03-13
+
+## 📅 历史报告
+
+- [2026-03-13](vibe-intel/reports/2026-03-13.md)
