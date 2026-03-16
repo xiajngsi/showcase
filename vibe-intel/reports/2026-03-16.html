@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vibe Intel | 2026-03-16</title>
+<style>
+  :root { --accent: #6366f1; --bg: #0f0f11; --card: #1a1a1f; --text: #e2e2e8; --muted: #888; --border: #2a2a32; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; background: var(--bg); color: var(--text); line-height: 1.8; }
+  .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 16px 24px; display: flex; align-items: center; gap: 16px; }
+  .nav a { color: var(--accent); text-decoration: none; font-size: 14px; }
+  .nav .logo { font-weight: 700; font-size: 16px; color: var(--text); }
+  .container { max-width: 800px; margin: 0 auto; padding: 40px 24px; }
+  .date-badge { background: var(--accent); color: white; padding: 4px 12px; border-radius: 20px; font-size: 12px; display: inline-block; margin-bottom: 24px; }
+  h1 { font-size: 24px; margin: 24px 0 16px; color: white; }
+  h2 { font-size: 18px; margin: 32px 0 12px; color: var(--accent); padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+  h3 { font-size: 15px; margin: 20px 0 8px; color: #aaa; }
+  p { margin: 10px 0; color: var(--text); }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  strong { color: white; }
+  ul { padding-left: 20px; margin: 10px 0; }
+  li { margin: 6px 0; }
+  hr { border: none; border-top: 1px solid var(--border); margin: 24px 0; }
+  table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+  td { padding: 10px 12px; border: 1px solid var(--border); vertical-align: top; }
+  tr:first-child td { background: #22222a; font-weight: 600; }
+  .meta { color: var(--muted); font-size: 13px; margin-bottom: 24px; }
+  .signal-badge { display: inline-block; background: #1e2a1e; border: 1px solid #3a5a3a; color: #7ec87e; padding: 2px 10px; border-radius: 12px; font-size: 12px; margin-left: 8px; vertical-align: middle; }
+</style>
+</head>
+<body>
+<nav class="nav">
+  <span class="logo">🌐 Vibe Intel</span>
+  <a href="/showcase/vibe-intel/">← 返回目录</a>
+</nav>
+<div class="container">
+  <div class="date-badge">📅 2026-03-16</div>
+  <h1>Vibe Coding & Agent Engineering 市场情报简报</h1>
+  <p class="meta"><strong>日期：</strong> 2026-03-16 &nbsp;｜&nbsp; <strong>信源数量：</strong> 17 条（博客 3 | 产品 1 | GitHub 10 | 讨论 3 | 融资 0）</p>
+
+  <hr/>
+  <h2>一、核心信号（Top 3）</h2>
+
+  <p><strong>信号 1：「Agentic Engineering」正式从流行语进入方法论阶段</strong> <span class="signal-badge">多源印证 ▲</span></p>
+  <p>Simon Willison 发布 <a href="https://simonwillison.net/guides/agentic-engineering-patterns/what-is-agentic-engineering/#atom-everything" target="_blank">Agentic Engineering 系统性指南</a>，将 Claude Code、Codex、Gemini CLI 统一归类为"coding agents"并定义工程模式。同日 GitHub 上 <a href="https://github.com/obra/superpowers" target="_blank">superpowers</a>（85.7K stars）和 <a href="https://github.com/msitarzewski/agency-agents" target="_blank">agency-agents</a>（46.4K stars）分别从工作流和角色化两个方向提供 agent 开发框架。</p>
+  <ul><li><strong>战略含义：</strong> 当头部意见领袖开始写"指南"而非"实验笔记"，标志该品类进入早期主流采纳阶段，产品需从"能用"转向"好用"的体验竞争。</li></ul>
+
+  <p><strong>信号 2：Agent 基础设施层快速分化——上下文管理成新战场</strong></p>
+  <p>字节跳动开源 <a href="https://github.com/volcengine/OpenViking" target="_blank">OpenViking</a>（12.3K stars），定位"AI Agent 上下文数据库"，将记忆、资源、技能统一用文件系统范式管理。Product Hunt 上线的 <a href="https://www.producthunt.com/products/query-memory" target="_blank">Query Memory</a> 同日切入"Agent 文档记忆"赛道。</p>
+  <ul><li><strong>战略含义：</strong> Agent 从"能执行任务"演进到"能记住上下文"，记忆/上下文管理正成为 Agent 基础设施的关键差异化层。</li></ul>
+
+  <p><strong>信号 3：Vibe Coding 的"100小时鸿沟"引发社区深度反思</strong> <span class="signal-badge">多源印证 ▲</span></p>
+  <p>HN 热帖 <a href="https://news.ycombinator.com/item?id=47386636" target="_blank">"The 100 hour gap"</a>（224分/301评论）与 <a href="https://news.ycombinator.com/item?id=47386813" target="_blank">"I'm 60 years old. Claude Code killed a passion"</a>（185分/152评论）同日登榜，折射开发者对 vibe coding 从兴奋转向务实审视。</p>
+  <ul><li><strong>战略含义：</strong> 市场预期正在修正——快速原型≠可交付产品，面向"最后20%"的工程化工具将迎来需求窗口。</li></ul>
+
+  <hr/>
+  <h2>二、新产品与技术动态</h2>
+
+  <strong>superpowers</strong> ｜ Agent 工作流框架 ⭐ 85,700 stars
+  <ul>
+    <li><strong>是什么：</strong> 面向编程 Agent 的完整开发方法论，强制 Agent 先理解需求再写代码，而非直接生成代码</li>
+    <li><strong>核心功能：</strong> 需求拆解→分块确认→渐进实现的结构化流程；可组合技能体系</li>
+    <li><strong>目标用户：</strong> 使用 Claude Code 等编程 Agent 的开发者</li>
+    <li><strong>为何值得关注：</strong> 85.7K stars，是本期 star 数最高的项目，验证了"约束 Agent 行为"的市场需求</li>
+    <li>🔗 <a href="https://github.com/obra/superpowers" target="_blank">https://github.com/obra/superpowers</a></li>
+  </ul>
+
+  <strong>claude-plugins-official</strong> ｜ 插件生态 ⭐ 11,900 stars
+  <ul>
+    <li><strong>是什么：</strong> Anthropic 官方维护的 Claude Code 插件目录，含 MCP server 和 skills</li>
+    <li><strong>核心功能：</strong> 官方审核的插件质量保证；MCP 协议集成；社区与官方双轨贡献</li>
+    <li><strong>目标用户：</strong> Claude Code 用户与插件开发者</li>
+    <li><strong>为何值得关注：</strong> 11.9K stars，Anthropic 正式构建平台生态，对标 VS Code 插件市场逻辑</li>
+    <li>🔗 <a href="https://github.com/anthropics/claude-plugins-official" target="_blank">https://github.com/anthropics/claude-plugins-official</a></li>
+  </ul>
+
+  <strong>OpenViking</strong> ｜ Agent 上下文数据库 ⭐ 12,300 stars
+  <ul>
+    <li><strong>是什么：</strong> 字节跳动（火山引擎）开源的 Agent 专用上下文数据库，用文件系统范式管理 Agent 的记忆与技能</li>
+    <li><strong>核心功能：</strong> 层级化上下文投递；自进化记忆；与 ClawBot 等 Agent 框架集成</li>
+    <li><strong>目标用户：</strong> Agent 应用开发者</li>
+    <li><strong>为何值得关注：</strong> 12.3K stars，大厂入场定义 Agent 基础设施标准</li>
+    <li>🔗 <a href="https://github.com/volcengine/OpenViking" target="_blank">https://github.com/volcengine/OpenViking</a></li>
+  </ul>
+
+  <strong>Lightpanda</strong> ｜ AI 原生浏览器 ⭐ 18,500 stars
+  <ul>
+    <li><strong>是什么：</strong> 用 Zig 从零编写的无头浏览器，专为 AI Agent 和自动化设计，非 Chromium 分支</li>
+    <li><strong>核心功能：</strong> 兼容 Playwright/Puppeteer；极致性能（基准测试远超 Chromium 方案）</li>
+    <li><strong>目标用户：</strong> 构建 Web Agent / 爬虫的开发者</li>
+    <li><strong>为何值得关注：</strong> 18.5K stars，Agent 要操作网页，浏览器本身成为瓶颈，从底层重写是真正的基础设施级押注</li>
+    <li>🔗 <a href="https://github.com/lightpanda-io/browser" target="_blank">https://github.com/lightpanda-io/browser</a></li>
+  </ul>
+
+  <strong>InsForge</strong> ｜ Agent 后端即服务 ⭐ 4,600 stars
+  <ul>
+    <li><strong>是什么：</strong> 基于 Deno 的后端平台，让 Agent 能直接部署全栈应用</li>
+    <li><strong>核心功能：</strong> 面向 Agent 的 API 设计；内置 embedding 能力；一键部署</li>
+    <li><strong>为何值得关注：</strong> 4.6K stars，"Agent-native backend"是新品类，解决 Agent 生成代码后的部署闭环</li>
+    <li>🔗 <a href="https://github.com/InsForge/InsForge" target="_blank">https://github.com/InsForge/InsForge</a></li>
+  </ul>
+
+  <p><strong>分析师点评：</strong> 今日 GitHub 趋势呈现清晰的"Agent 基础设施栈"分层——从工作流（superpowers）、插件生态（claude-plugins）、上下文管理（OpenViking）、浏览器运行时（Lightpanda）到部署后端（InsForge），Agent 生态正在快速"云计算化"。</p>
+
+  <hr/>
+  <h2>三、开发者社区情绪</h2>
+
+  <p>"100小时鸿沟"帖（224分/301评论）指出 vibe coding 原型到可用产品之间存在巨大落差。</p>
+  <blockquote style="border-left: 3px solid var(--accent); padding-left: 16px; margin: 12px 0; color: var(--muted); font-style: italic;">
+    "80/20法则并未消失。我是 AI 的真正信徒，但最后那'20%'仍然需要 80% 以上的时间。旧规则依然适用。"
+  </blockquote>
+  <p>"60岁开发者"帖（185分/152评论）表达 AI 工具对编程热情的冲击，但社区主流回应温和。</p>
+  <p><strong>分析师点评：</strong> 社区正经历从"AI 万能论"到"AI 有用但有边界"的预期修正期，这是健康的成熟信号。产品机会在于：帮助开发者跨越"100小时鸿沟"的工具将获得付费意愿。</p>
+
+  <hr/>
+  <h2>四、资本与商业动向</h2>
+
+  <p>本日无融资事件。值得注意的商业信号：Ramp（估值 $32B）CPO Geoff Charles 展示其内部 AI Agent 体系，提出 L0-L3 Agent 成熟度框架，并演示 Claude Code 在 PM 工作流中的深度应用。</p>
+  <p><strong>分析师点评：</strong> 当 $32B 级企业公开分享 Agent 内部实践并形成框架化方法论，意味着 Agent 采纳已从"实验"进入"运营"阶段，企业级 Agent 编排工具的窗口正在打开。</p>
+
+  <hr/>
+  <h2>五、分析师判断</h2>
+
+  <p><strong>本周趋势方向：</strong> Agent 生态正从"单体工具"向"分层基础设施栈"演进，上下文管理、插件生态、专用运行时三个层面同时出现创业/开源项目，类似 2015 年容器生态的早期分化。</p>
+  <p><strong>今日最强信号：</strong> Anthropic 官方插件目录的出现（claude-plugins-official, 11.9K stars）标志着 Claude Code 正式走平台化路线——这将重新定义"编程 Agent"的竞争维度，从模型能力转向生态丰富度。</p>
+  <p><strong>需持续观察：</strong> Ramp 提出的 L0-L3 Agent 成熟度框架是否会被更多企业采纳为内部评估标准——若成为事实标准，将直接影响 Agent 产品的功能优先级排序。</p>
+
+  <p style="margin-top: 32px; padding-top: 16px; border-top: 1px solid var(--border); color: var(--muted); font-size: 13px;">
+    📎 完整报告（Markdown）：<a href="https://github.com/xiajngsi/showcase/blob/main/vibe-intel/reports/2026-03-16.md" target="_blank">GitHub</a>
+  </p>
+</div>
+</body>
+</html>
