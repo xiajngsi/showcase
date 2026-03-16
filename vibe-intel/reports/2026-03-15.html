@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vibe Intel | 2026-03-15</title>
+<style>
+  :root { --accent: #6366f1; --bg: #0f0f11; --card: #1a1a1f; --text: #e2e2e8; --muted: #888; --border: #2a2a32; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; background: var(--bg); color: var(--text); line-height: 1.8; }
+  .nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 16px 24px; display: flex; align-items: center; gap: 16px; }
+  .nav a { color: var(--accent); text-decoration: none; font-size: 14px; }
+  .nav .logo { font-weight: 700; font-size: 16px; color: var(--text); }
+  .container { max-width: 800px; margin: 0 auto; padding: 40px 24px; }
+  .date-badge { background: var(--accent); color: white; padding: 4px 12px; border-radius: 20px; font-size: 12px; display: inline-block; margin-bottom: 24px; }
+  h1 { font-size: 24px; margin: 24px 0 16px; color: white; }
+  h2 { font-size: 18px; margin: 32px 0 12px; color: var(--accent); padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+  h3 { font-size: 15px; margin: 20px 0 8px; color: #aaa; }
+  p { margin: 10px 0; color: var(--text); }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  strong { color: white; }
+  ul { padding-left: 20px; margin: 10px 0; }
+  li { margin: 6px 0; }
+  hr { border: none; border-top: 1px solid var(--border); margin: 24px 0; }
+  table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+  td { padding: 10px 12px; border: 1px solid var(--border); vertical-align: top; }
+  tr:first-child td { background: #22222a; font-weight: 600; }
+  .meta { color: var(--muted); font-size: 13px; margin-bottom: 24px; }
+  .signal-badge { display: inline-block; background: #1e2a1e; border: 1px solid #3a5a3a; color: #7ec87e; padding: 2px 10px; border-radius: 12px; font-size: 12px; margin-left: 8px; vertical-align: middle; }
+  blockquote { border-left: 3px solid var(--accent); padding-left: 16px; margin: 12px 0; color: var(--muted); font-style: italic; }
+</style>
+</head>
+<body>
+<nav class="nav">
+  <span class="logo">🌐 Vibe Intel</span>
+  <a href="/showcase/vibe-intel/">← 返回目录</a>
+</nav>
+<div class="container">
+  <div class="date-badge">📅 2026-03-15</div>
+  <h1>Vibe Coding & Agent Engineering 市场情报简报</h1>
+  <p class="meta"><strong>日期：</strong> 2026-03-15 &nbsp;｜&nbsp; <strong>信源数量：</strong> 19 条（博客 4 | 产品 3 | GitHub 10 | 讨论 1 | 融资 1）</p>
+
+  <hr/>
+  <h2>一、核心信号（Top 3）</h2>
+
+  <p><strong>信号 1：AI 生成垃圾 PR 正在冲击开源治理模型</strong> <span class="signal-badge">多源印证 ▲</span></p>
+  <p>GitHub 上 AI 生成的 PR 仅 1/10 达到项目标准，Jazzband 的开放成员制度已难以为继；curl 被迫关闭 Bug Bounty。Simon Willison 同日发布 Agentic Engineering 演讲，讨论 AI 工具采纳阶段论，侧面印证 AI 代码工具的"失控期"已到来。</p>
+  <ul>
+    <li>信源：<a href="https://simonwillison.net/2026/Mar/14/jannis-leidel/#atom-everything" target="_blank">Simon Willison 博客</a> / <a href="https://simonwillison.net/2026/Mar/14/pragmatic-summit/#atom-everything" target="_blank">Pragmatic Summit 演讲</a></li>
+    <li><strong>战略含义：</strong> 开源项目急需 AI PR 过滤/质量门禁工具，这是一个明确的产品机会窗口。</li>
+  </ul>
+
+  <p><strong>信号 2：Agent-to-UI 范式由 Google 推向主流</strong></p>
+  <p>Google 开源 <a href="https://github.com/google/A2UI" target="_blank">A2UI</a>（Agent-to-User Interface），13,182 星，定义了 Agent 生成可更新 UI 的标准格式。这意味着 Agent 输出从纯文本向富交互界面演进。</p>
+  <ul>
+    <li><strong>战略含义：</strong> Agent 产品的竞争将从"能力层"延伸到"表现层"，前端工程师在 Agent 生态中的角色被重新定义。</li>
+  </ul>
+
+  <p><strong>信号 3：xAI 编码工具二次重启，从 Cursor 挖角高管</strong></p>
+  <p>Musk 旗下 xAI 承认 AI 编码工具"未从一开始就做对"，重组团队并引入 Cursor 两名高管。</p>
+  <ul>
+    <li>信源：<a href="https://techcrunch.com/2026/03/13/not-built-right-the-first-time-musks-xai-is-starting-over-again-again/" target="_blank">TechCrunch</a></li>
+    <li><strong>战略含义：</strong> Cursor 的产品方法论被大资本验证为正确路径；AI 编码赛道的人才争夺已从工程师升级到管理层。</li>
+  </ul>
+
+  <hr/>
+  <h2>二、新产品与技术动态</h2>
+
+  <strong>Google A2UI</strong> ｜ Agent UI 渲染框架 ⭐ 13,182 stars
+  <ul>
+    <li><strong>是什么：</strong> 一套让 AI Agent 生成并动态更新富 UI 组件的开源规范与渲染器，v0.8 公开预览阶段</li>
+    <li><strong>核心功能：</strong> 标准化 Agent UI 输出格式 / 多渲染器支持 / 可增量更新</li>
+    <li><strong>目标用户：</strong> Agent 应用开发者</li>
+    <li><strong>为何值得关注：</strong> Google 背书 + 13K+ 星，有望成为 Agent UI 的事实标准</li>
+    <li>🔗 <a href="https://github.com/google/A2UI" target="_blank">GitHub</a></li>
+  </ul>
+
+  <strong>obra/superpowers</strong> ｜ Agent 开发工作流框架 ⭐ 83,000+ stars
+  <ul>
+    <li><strong>是什么：</strong> 为编码 Agent 设计的完整开发方法论，通过可组合"技能"让 Agent 先理解需求再写代码</li>
+    <li><strong>核心功能：</strong> 需求澄清流程 / 分块式 Spec 确认 / 可组合技能体系</li>
+    <li><strong>目标用户：</strong> 使用 AI 编码工具的开发者</li>
+    <li><strong>为何值得关注：</strong> 83K+ 星，是当前 GitHub 最热 Agent 工程项目，代表"结构化 vibe coding"的方法论共识</li>
+    <li>🔗 <a href="https://github.com/obra/superpowers" target="_blank">GitHub</a></li>
+  </ul>
+
+  <strong>Lightpanda</strong> ｜ AI 专用无头浏览器 ⭐ 17,000 stars
+  <ul>
+    <li><strong>是什么：</strong> 面向 AI Agent 和自动化场景的轻量浏览器，内存占用仅为 Chrome 的 1/9，速度快 11 倍</li>
+    <li><strong>核心功能：</strong> 兼容 Playwright/Puppeteer / CDP 协议支持 / 超低资源消耗</li>
+    <li><strong>目标用户：</strong> 构建网页抓取/自动化的 Agent 开发者</li>
+    <li><strong>为何值得关注：</strong> 17K 星，Agent 基础设施层的关键补缺</li>
+    <li>🔗 <a href="https://github.com/lightpanda-io/browser" target="_blank">GitHub</a></li>
+  </ul>
+
+  <strong>Docket</strong> ｜ 轻量项目管理工具
+  <ul>
+    <li><strong>是什么：</strong> 面向独立开发者和 AI Agent 的类 Jira 工具</li>
+    <li><strong>为何值得关注：</strong> "AI Agent 作为项目协作者"的产品形态开始出现</li>
+    <li>🔗 <a href="https://www.producthunt.com/products/docket-4" target="_blank">Product Hunt</a></li>
+  </ul>
+
+  <strong>promptfoo</strong> ｜ LLM 评测与红队工具 ⭐ 15,900 stars
+  <ul>
+    <li><strong>是什么：</strong> CLI 驱动的 Prompt/Agent 评测与安全扫描工具，支持 CI/CD 集成</li>
+    <li>🔗 <a href="https://github.com/promptfoo/promptfoo" target="_blank">GitHub</a></li>
+  </ul>
+
+  <p><strong>分析师点评：</strong> 本日 GitHub 趋势呈现明确分层——Agent UI 层（A2UI）、方法论层（superpowers）、基础设施层（Lightpanda）同步升温，Agent 技术栈正在从"能用"走向"好用"。</p>
+
+  <hr/>
+  <h2>三、开发者社区情绪</h2>
+
+  <h3>3.1 软件行业 AI 焦虑 ⚔️ 争议</h3>
+
+  <p><strong>Spine Swarm（HN 106分/69评论）：</strong> 一款让多个 AI Agent 在可视画布上协作的产品。社区反应两极分化：</p>
+  <blockquote>"主网站很难在没有 demo 的情况下理解工具的工作方式"</blockquote>
+  <blockquote>"我不想看到 Agent 的思考过程，我只要最终产物"</blockquote>
+  <p>反映开发者对"Agent 可观测性"的需求尚未形成共识。</p>
+
+  <p><strong>AI 垃圾 PR 危机（Simon Willison）：</strong> AI PR 合格率仅 10%，curl 关闭 Bug Bounty，Jazzband 模式崩溃。开发者社区正从"AI 提高效率"的乐观转向"AI 制造噪音"的焦虑。</p>
+
+  <p><strong>分析师点评：</strong> 社区情绪的核心矛盾已清晰——开发者欢迎 AI 辅助自己，但抗拒 AI 辅助别人来打扰自己。"AI 质量门禁"将成为刚需。</p>
+
+  <h3>3.2 教育行业 AI 影响</h3>
+  <p>本日无相关信源。</p>
+
+  <hr/>
+  <h2>四、资本与商业动向</h2>
+
+  <p><strong>xAI</strong> — 内部重组（未披露新融资）/ 从 Cursor 引入两名高管 — AI 编码工具被 xAI 视为战略级产品，但两次重启暴露了"有算力无产品力"的困境。Cursor 成为人才输出方，侧面验证其团队能力溢价。（<a href="https://techcrunch.com/2026/03/13/not-built-right-the-first-time-musks-xai-is-starting-over-again-again/" target="_blank">TechCrunch</a>）</p>
+
+  <p><strong>分析师点评：</strong> xAI 反复重启说明——AI 编码工具的核心壁垒不在模型，而在产品设计与开发者体验。这对 Cursor、Windsurf 等先行者是利好。</p>
+
+  <hr/>
+  <h2>五、分析师判断</h2>
+
+  <p><strong>本周趋势方向：</strong> Agent 工程正从"能力竞赛"进入"治理时代"——开源社区的 AI 垃圾 PR 危机、superpowers 的方法论爆火、A2UI 的标准化尝试，三者共同指向同一方向：行业需要规则、规范和质量控制。</p>
+  <p><strong>今日最强信号：</strong> AI 生成代码的"合格率仅 10%"这一数字，将深刻改变开源社区的协作模式和工具链需求。</p>
+  <p><strong>需持续观察：</strong> xAI 新团队能否在 Q2 交出可用产品——若失败，将进一步巩固 Cursor 的市场叙事地位。</p>
+
+  <p style="margin-top: 32px; padding-top: 16px; border-top: 1px solid var(--border); color: var(--muted); font-size: 13px;">
+    📎 完整报告（Markdown）：<a href="https://github.com/xiajngsi/showcase/blob/main/vibe-intel/reports/2026-03-15.md" target="_blank">GitHub</a>
+  </p>
+</div>
+</body>
+</html>
